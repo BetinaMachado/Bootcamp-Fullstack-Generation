@@ -1,36 +1,51 @@
 header {
     color: #FFCB00;
-    padding: 20px;
-    text-decoration: dashed;
+    padding: 10px;
+    text-align: left;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     background-color: #A30F1C;
-    background-size: cover;
-    position: center;
-    width: 50%;
-    height: 50%;
-    z-index: 1;
-    opacity: 1;
-
 }
-
 
 body {
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    text-align: left;
+    text-align: justify;
     margin-left: 20px;
     margin-right: 20px;
-    margin-inline-end: 5%;
-    margin-inline-start: 5%;
+    margin-inline-end: 10%;
+    margin-inline-start: 10%;
+}
+
+p {
+    text-indent: 40px;
 }
 
 footer {
     background-color: #008867;
     color: black;
-    padding: 25px;
-    text-align: center;
+    padding: 1px;
+    text-align: justify;
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     margin-top: 25px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.container {
+    display: inline-flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    text-indent: 0px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+.cast {
+    padding: 20px;
 }
